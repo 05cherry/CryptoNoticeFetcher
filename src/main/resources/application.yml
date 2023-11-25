@@ -1,0 +1,15 @@
+#spring.profiles.active=dev
+  #my_chat_id
+#telegram.chIdSys=5885036230
+  #telegram_room_token
+#telegram.room.token=6862976763:AAExI-EniotbQnPGOc8ibtyvYIGzTli5-aM
+
+spring:
+  profiles:
+    group:
+      "local": "local, common"
+      "dev": "dev, common"
+      "prod": "prod, common"
+    active: dev #활성 프로필 설정
+
+
